@@ -1,0 +1,45 @@
+@import './main.scss';
+@import './header.scss';
+@import './person.scss';
+@import './logo.scss';
+@import './filterBar.scss';
+@import './card.scss';
+@import './modal.scss';
+
+:root {
+  // font
+  // regular
+  --font-body-2-regular: 400 14px 'Noto Sans TC', sans-serif;
+  --font-body-3-regular: 400 16px 'Noto Sans TC', sans-serif;
+  --font-body-4-regular: 400 20px 'Noto Sans TC', sans-serif;
+  // bold
+  --font-body-2-bold: 700 14px 'Noto Sans TC', sans-serif;
+  --font-body-5-bold: 700 24px 'Noto Sans TC', sans-serif;
+
+  // color
+  // red
+  --cl-red-100: #fbefec;
+  --cl-red-200: #f7deda;
+  --cl-red-300: #f3cec7;
+  --cl-red-400: #efbdb5;
+  --cl-red-500: #e89d8f;
+  --cl-red-600: #e07c6a;
+  --cl-red-700: #d85b45;
+  --cl-red-800: #b24a38;
+  --cl-red-900: #8c3a2b;
+  --cl-red-1000: #7f3224;
+  --cl-red-1100: #702b1f;
+  --cl-red-1200: #612419;
+  --cl-red-1300: #521d14;
+  --cl-red-1400: #43160e;
+  // orange
+  --cl-orange-100: #fbe6d1;
+  --cl-orange-400: #f7c798;
+  --cl-orange-700: #ee8927;
+  //
+  --cl-gray-500: #cccccc;
+  --cl-gray-700: #999999;
+  --cl-gray-800: #808080;
+  --cl-gray-1000: #4d4d4d;
+  --cl-gray-1500: #000000;
+}

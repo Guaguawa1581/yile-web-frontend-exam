@@ -1,0 +1,15 @@
+#BannerLogo {
+  .bg {
+    width: 540px;
+    height: 323px;
+    background-image: url('../images/Logo-01.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: scaleText 1.5s linear infinite;
+  }
+}
+@keyframes scaleText {
+  50% {
+    transform: scale(1.2);
+  }
+}

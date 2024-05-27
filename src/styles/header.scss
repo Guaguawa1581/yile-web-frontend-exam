@@ -1,0 +1,28 @@
+:root {
+  --ratio: 1;
+}
+#header {
+  position: relative;
+  width: 100%;
+  height: calc(823px * var(--ratio));
+  max-height: 823px;
+  background-image: url('../images/Background-01.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  .headBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 0 0;
+    transform: scale(var(--ratio));
+  }
+  .logoBox {
+    position: absolute;
+    top: 350px;
+    left: 817px;
+    top: calc(350px * var(--ratio));
+    left: calc(817px * var(--ratio));
+    transform-origin: 0 0;
+    transform: scale(var(--ratio));
+  }
+}

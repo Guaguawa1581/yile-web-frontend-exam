@@ -1,0 +1,73 @@
+.cardDialog {
+  .dialogTitle {
+    font: var(--font-body-5-bold);
+    color: var(--cl-gray-1000);
+  }
+  .dialogContent {
+    border-top: 1px solid var(--cl-gray-500);
+    border-bottom: 1px solid var(--cl-gray-500);
+    .loadingBox {
+      position: relative;
+      width: 100%;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .loadingSpinner {
+        border: 10px solid #f3f3f3;
+        border-top: 10px solid var(--cl-orange-700);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+      }
+    }
+    .contentTitle {
+      margin: 10px 0;
+      font: var(--font-body-5-bold);
+      color: var(--cl-gray-1000);
+      & > span:last-child {
+        margin-left: 8px;
+        font: var(--font-body-4-regular);
+      }
+    }
+    .swiperContainer {
+      .cardSwiper {
+        width: 100%;
+        .swiper-slide {
+          min-height: 150px;
+          max-width: 250px;
+          img {
+            width: 100%;
+          }
+        }
+        .swiper-pagination {
+          position: relative;
+          margin-top: 8px;
+          text-align: center;
+          .swiper-pagination-bullet-active {
+            width: 24px;
+            border-radius: 18px;
+            background-color: var(--cl-orange-700);
+            transform-origin: left center;
+            transition: width 0.4s linear;
+          }
+        }
+      }
+    }
+    .contentBox {
+      margin-top: 20px;
+    }
+  }
+  .dialogBtn {
+    color: var(--cl-gray-1000);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,110 @@
+#person {
+  .charBox {
+    position: relative;
+
+    width: 1097px;
+    height: 823px;
+    --eye_progress: 0;
+    .charBg {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: url('../images/Character-01-White.png');
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+    .char {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: url('../images/Character-01.png');
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+    .leftEyeBox {
+      position: absolute;
+      width: 90px;
+      height: 40px;
+      top: 309px;
+      left: 539px;
+
+      & > div {
+        position: relative;
+        .leftEye {
+          position: absolute;
+          background-image: url('../images/LeftEye-01.png');
+          background-repeat: no-repeat;
+          background-size: 100%;
+          width: 41px;
+          height: 34px;
+          transform: rotate(-9deg);
+          top: 5px;
+          left: 6px;
+          animation: moveEyeLeft 1s linear forwards;
+          animation-play-state: paused;
+          animation-delay: calc(var(--eye_progress) * -1s / 100);
+        }
+      }
+    }
+    .rightEyeBox {
+      position: absolute;
+      width: 55px;
+      height: 40px;
+      top: 303px;
+      left: 718px;
+
+      & > div {
+        position: relative;
+        .rightEye {
+          position: absolute;
+          background-image: url('../images/RightEye-01.png');
+          background-repeat: no-repeat;
+          background-size: 100%;
+          width: 38px;
+          height: 30px;
+          transform: rotate(-14deg);
+          top: 7px;
+          left: -8px;
+          animation: moveEyeRight 1s linear forwards;
+          animation-play-state: paused;
+          animation-delay: calc(var(--eye_progress) * -1s / 100);
+        }
+      }
+    }
+  }
+}
+
+@keyframes moveEyeLeft {
+  0% {
+    transform: rotate(-9deg);
+    top: 5px;
+    left: 6px;
+  }
+  50% {
+    transform: rotate(0deg);
+    top: 0px;
+    left: 27px;
+  }
+  100% {
+    transform: rotate(-2deg);
+    top: -3px;
+    left: 45px;
+  }
+}
+@keyframes moveEyeRight {
+  0% {
+    transform: rotate(-14deg);
+    top: 7px;
+    left: -8px;
+  }
+  50% {
+    transform: rotate(0deg);
+    top: 0px;
+    left: 8px;
+  }
+  100% {
+    transform: rotate(10deg);
+    top: 0px;
+    left: 22px;
+  }
+}
