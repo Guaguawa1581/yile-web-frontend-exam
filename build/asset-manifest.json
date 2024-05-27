@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.d33158d4.css",
-    "main.js": "/static/js/main.1d3c20bc.js",
-    "static/media/Character-01.png": "/static/media/Character-01.ba857298e098dba4a718.png",
-    "static/media/Background-01.png": "/static/media/Background-01.b65ac1c989442c39a6fc.png",
-    "static/media/Logo-01.png": "/static/media/Logo-01.ca154d9def71e503e9d0.png",
-    "static/media/Character-01-White.png": "/static/media/Character-01-White.b3cce986fe5b7c346167.png",
-    "static/media/salaryIcon.svg": "/static/media/salaryIcon.1436f6606123c8b0e1ebe03595df0ed3.svg",
-    "static/media/bookIcon.svg": "/static/media/bookIcon.69d34def261cc59ae8f8e0f933a059eb.svg",
-    "static/media/personIcon.svg": "/static/media/personIcon.07505c588e6e034b7c422d66d8f4aef2.svg",
-    "index.html": "/index.html",
-    "main.d33158d4.css.map": "/static/css/main.d33158d4.css.map",
-    "main.1d3c20bc.js.map": "/static/js/main.1d3c20bc.js.map"
+    "main.css": "/yile-web-frontend-exam/static/css/main.a5dbe439.css",
+    "main.js": "/yile-web-frontend-exam/static/js/main.6a5494f0.js",
+    "static/media/Character-01.png": "/yile-web-frontend-exam/static/media/Character-01.ba857298e098dba4a718.png",
+    "static/media/Background-01.png": "/yile-web-frontend-exam/static/media/Background-01.b65ac1c989442c39a6fc.png",
+    "static/media/Logo-01.png": "/yile-web-frontend-exam/static/media/Logo-01.ca154d9def71e503e9d0.png",
+    "static/media/Character-01-White.png": "/yile-web-frontend-exam/static/media/Character-01-White.b3cce986fe5b7c346167.png",
+    "static/media/salaryIcon.svg": "/yile-web-frontend-exam/static/media/salaryIcon.1436f6606123c8b0e1ebe03595df0ed3.svg",
+    "static/media/bookIcon.svg": "/yile-web-frontend-exam/static/media/bookIcon.69d34def261cc59ae8f8e0f933a059eb.svg",
+    "index.html": "/yile-web-frontend-exam/index.html",
+    "static/media/personIcon.svg": "/yile-web-frontend-exam/static/media/personIcon.07505c588e6e034b7c422d66d8f4aef2.svg",
+    "main.a5dbe439.css.map": "/yile-web-frontend-exam/static/css/main.a5dbe439.css.map",
+    "main.6a5494f0.js.map": "/yile-web-frontend-exam/static/js/main.6a5494f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.d33158d4.css",
-    "static/js/main.1d3c20bc.js"
+    "static/css/main.a5dbe439.css",
+    "static/js/main.6a5494f0.js"
   ]
 }
