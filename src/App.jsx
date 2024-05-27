@@ -142,6 +142,7 @@ function App() {
                   count={totalPage}
                   page={nowPage}
                   onChange={pageHandler}
+                  size="small"
                   style={{
                     marginTop: '20px',
                     display: 'flex',
