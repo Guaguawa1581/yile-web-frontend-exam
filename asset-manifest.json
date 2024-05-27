@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yile-web-frontend-exam/static/css/main.a5dbe439.css",
-    "main.js": "/yile-web-frontend-exam/static/js/main.6a5494f0.js",
+    "main.css": "/yile-web-frontend-exam/static/css/main.83ca361f.css",
+    "main.js": "/yile-web-frontend-exam/static/js/main.151f9170.js",
     "static/media/Character-01.png": "/yile-web-frontend-exam/static/media/Character-01.ba857298e098dba4a718.png",
     "static/media/Background-01.png": "/yile-web-frontend-exam/static/media/Background-01.b65ac1c989442c39a6fc.png",
     "static/media/Logo-01.png": "/yile-web-frontend-exam/static/media/Logo-01.ca154d9def71e503e9d0.png",
@@ -10,11 +10,11 @@
     "static/media/bookIcon.svg": "/yile-web-frontend-exam/static/media/bookIcon.69d34def261cc59ae8f8e0f933a059eb.svg",
     "index.html": "/yile-web-frontend-exam/index.html",
     "static/media/personIcon.svg": "/yile-web-frontend-exam/static/media/personIcon.07505c588e6e034b7c422d66d8f4aef2.svg",
-    "main.a5dbe439.css.map": "/yile-web-frontend-exam/static/css/main.a5dbe439.css.map",
-    "main.6a5494f0.js.map": "/yile-web-frontend-exam/static/js/main.6a5494f0.js.map"
+    "main.83ca361f.css.map": "/yile-web-frontend-exam/static/css/main.83ca361f.css.map",
+    "main.151f9170.js.map": "/yile-web-frontend-exam/static/js/main.151f9170.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5dbe439.css",
-    "static/js/main.6a5494f0.js"
+    "static/css/main.83ca361f.css",
+    "static/js/main.151f9170.js"
   ]
 }
